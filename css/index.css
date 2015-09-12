@@ -2,11 +2,10 @@ html body {
 	width: 100%;
 	height: 100%;
 	margin: 0px;
-	padding: 0px; !important;
+	padding: 0px;
 	background-color: whitesmoke;
-	min-height: 500px;
+	min-height: 600px;
 }
-
 
 #project-title-container {
 	width: 400px;
@@ -14,22 +13,24 @@ html body {
 	margin: 0 auto;
 }
 
+#project-title-container img {
+	display: block;
+	margin: 0 auto;
+}
+
 #project-title-container h1 {
 	display: block;
-	float: left;
-	margin: 5px;
+	margin: 0 auto;
 }
 
 #project-title-container label {
 	display: block;
-	float right;
-	margin: 5px;
+	margin: 0 auto;
 }
 
 #index-content-left {
 	float: left;
-	padding-top: 200px;
-	padding-left: 100px;
+	padding-top: 100px;
 	display: inline-block;
 }
 
@@ -53,6 +54,16 @@ html body {
 .half-content {
 	width: 50%;
 	height: 100%;
+}
+
+#cool-shakespeare {
+	width: 175px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#choice-menu-header {
+	color: white;
 }
 
 @media screen and (max-width: 900px) {
