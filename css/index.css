@@ -1,0 +1,52 @@
+html body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: whitesmoke;
+}
+
+#landing-footer {
+	width: 100%;
+	height: 100px
+;	position: fixed;
+	bottom: 0;
+
+}
+#footer-content-container {
+	width: 250px;
+	margin: 0 auto;
+}
+
+.icon-container {
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.footer-icon {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#github-icon {
+	width: 100%;
+	height: 100%;
+	background-image: url("../assets/github_icon.png");
+}
+
+#about-icon {
+	width: 100%;
+	height: 100%;
+	background-image: url("../assets/about_icon.png");
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
