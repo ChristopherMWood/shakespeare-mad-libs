@@ -36,17 +36,12 @@ html body {
 	background-image: url("../assets/github_icon.png");
 }
 
+#about-popup-anchor {
+	outline: none;
+}
+
 #about-icon {
 	width: 100%;
 	height: 100%;
 	background-image: url("../assets/about_icon.png");
-}
-
-.white-popup {
-  position: relative;
-  background: #FFF;
-  padding: 20px;
-  width: auto;
-  max-width: 500px;
-  margin: 20px auto;
 }
