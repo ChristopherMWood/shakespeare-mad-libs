@@ -9,44 +9,64 @@
 		<link rel="icon" sizes="16x16 32x32 64x64" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<link rel="stylesheet" type="text/css" href="css/plugins/magnific.css"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
 	</header>
 
 	<body>
-		<div id="project-title-container">
-			<h1>Shakespeare MadLibs</h1>
-			<label>by Christopher M. Wood</label>
-		</div>
+		<div id="perspective" class="perspective effect-moveleft">
+			<div class="container">
+				<div class="wrapper"><!-- wrapper needed for scroll -->
+					<div id="project-title-container">
+						<h1>Shakespeare MadLibs</h1>
+						<label>by Christopher M. Wood</label>
+					</div>
 
-		<div id="landing-footer">
-			<div id="footer-content-container">
-				<div class="icon-container">
-					<a id="git-link" href="https://github.com/ImpulseChimp/ShakespeareMadLibs" target="_blank">
-						<div id="github-icon" class="footer-icon"></div>
-					</a>
-				</div>
-				<div class="icon-container">
-					<a id="about-popup-anchor" href="#about-popup" class="open-popup-link">
-						<div id="about-icon" class="footer-icon"></div>
-					</a>
-				</div>
-			</div>
-		</div>
+					<div class="column">
+							<p><button id="showMenu">Show Menu</button></p>
+							<p>Click on this button to see the content being pushed away in 3D to reveal a navigation or other items.</p>
+						</div>	
 
-		<div id="about-popup" class="white-popup mfp-hide">
-		  <h2>About This project</h2>
-		  The purpose of this project was to take the works of Shakespeare converted to XML and to turn it into a unique experience. 
+					<div id="landing-footer">
+						<div id="footer-content-container">
+							<div class="icon-container">
+								<a id="git-link" href="https://github.com/ImpulseChimp/ShakespeareMadLibs" target="_blank">
+									<div id="github-icon" class="footer-icon"></div>
+								</a>
+							</div>
+							<div class="icon-container">
+								<a id="about-popup-anchor" href="#about-popup" class="open-popup-link">
+									<div id="about-icon" class="footer-icon"></div>
+								</a>
+							</div>
+						</div>
+					</div>
 
-		  <p>
-		  The full works of Shakespeare in XML can be found below.
-		  </p>
+					<div id="about-popup" class="white-popup mfp-hide">
+					  <h2>About This project</h2>
+					  The purpose of this project was to take the works of Shakespeare converted to XML and to turn it into a unique experience. 
 
-		  <center><a href="http://metalab.unc.edu/bosak/xml/eg/shaks200.zip">.zip of Shakespeare in XML</a></center>
-		</div>
+					  <p>
+					  The full works of Shakespeare in XML can be found below.
+					  </p>
+
+					  <center><a href="http://metalab.unc.edu/bosak/xml/eg/shaks200.zip">.zip of Shakespeare in XML</a></center>
+					</div>
+				</div><!-- /main -->
+			</div><!-- wrapper -->
+		</div><!-- /perspective -->
+		<nav class="outer-nav left vertical">
+			<!-- ... -->
+		</nav>
 	</body>
 
 	<footer>
 	    <script type="text/javascript" src="js/jQuery/jquery-2.1.4.min.js"></script>
+		<script src="js/modernizr.custom.25376.js"></script>
 	    <script type="text/javascript" src="js/jQuery/plugins/jquery.magnificPopup.min.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/menu.js"></script>
 	</footer>
 </html>
