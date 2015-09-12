@@ -3,8 +3,11 @@ html body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-color: whitesmoke;
 	min-height: 600px;
+}
+
+body {
+	background-image: url("../assets/landing_background.jpg");
 }
 
 #project-title-container {
