@@ -240,7 +240,7 @@ html, body, .perspective {
 
 /* Effect Move Left */
 .effect-moveleft {
-	background: #f4f3f1;
+	background: blue;
 }
 
 .effect-moveleft .container {
