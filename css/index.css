@@ -2,15 +2,16 @@ html body {
 	width: 100%;
 	height: 100%;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px; !important;
 	background-color: whitesmoke;
+	min-height: 500px;
 }
 
 
 #project-title-container {
 	width: 400px;
 	height: 300px;
-	margin: 0px 50px;
+	margin: 0 auto;
 }
 
 #project-title-container h1 {
@@ -25,6 +26,52 @@ html body {
 	margin: 5px;
 }
 
+#index-content-left {
+	float: left;
+	padding-top: 200px;
+	padding-left: 100px;
+	display: inline-block;
+}
+
+#index-content-right {
+	float: right;
+	padding-top: 200px;
+	display: inline-block;
+}
+
+#options-container {
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
+
+#options-container button {
+	margin: 0 auto;
+	display: block;
+}
+
+.half-content {
+	width: 50%;
+	height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+
+	#index-content-left {
+		padding-top: 50px;
+		display: block;
+	}
+
+	#index-content-right {
+		padding-top: 50px;
+		display: block;
+	}
+
+	.half-content {
+		width: 100%;
+	}
+
+}
 
 #landing-footer {
 	width: 100%;
