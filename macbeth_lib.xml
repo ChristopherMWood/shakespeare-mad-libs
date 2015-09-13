@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="/xsl/macbeth_lib.xsl"?>
+
+<PLAY>
+<TITLE>Macbeth MadLib</TITLE>
+
+<PERSONAE>
+<TITLE>Dramatis Personae</TITLE>
+
+<PERSONA>DUNCAN, king of Scotland.</PERSONA>
+
+<PGROUP>
+<PERSONA>MALCOLM</PERSONA>
+<PERSONA>DONALBAIN</PERSONA>
+<GRPDESCR>his sons.</GRPDESCR>
+</PGROUP>
+
+<PGROUP>
+<PERSONA>MACBETH</PERSONA>
+<PERSONA>BANQUO</PERSONA>
+<GRPDESCR>generals of the king's army.</GRPDESCR>
+</PGROUP>
+
+<PGROUP>
+<PERSONA>MACDUFF</PERSONA>
+<PERSONA>LENNOX</PERSONA>
+<PERSONA>ROSS</PERSONA>
+<PERSONA>MENTEITH</PERSONA>
+<PERSONA>ANGUS</PERSONA>
+<PERSONA>CAITHNESS</PERSONA>
+<GRPDESCR>noblemen of Scotland.</GRPDESCR>
+</PGROUP>
+
+<PERSONA>FLEANCE, son to Banquo.</PERSONA>
+<PERSONA>SIWARD, Earl of Northumberland, general of the English forces.</PERSONA>
+<PERSONA>YOUNG SIWARD, his son.</PERSONA>
+<PERSONA>SEYTON, an officer attending on Macbeth.</PERSONA>
+<PERSONA>Boy, son to Macduff. </PERSONA>
+<PERSONA>An English Doctor. </PERSONA>
+<PERSONA>A Scotch Doctor. </PERSONA>
+<PERSONA>A Soldier.</PERSONA>
+<PERSONA>A Porter.</PERSONA>
+<PERSONA>An Old Man.</PERSONA>
+<PERSONA>LADY MACBETH</PERSONA>
+<PERSONA>LADY MACDUFF</PERSONA>
+<PERSONA>Gentlewoman attending on Lady Macbeth. </PERSONA>
+<PERSONA>HECATE</PERSONA>
+<PERSONA>Three Witches.</PERSONA>
+<PERSONA>Apparitions.</PERSONA>
+<PERSONA>Lords, Gentlemen, Officers, Soldiers, Murderers, Attendants, and Messengers. </PERSONA>
+</PERSONAE>
+
+<SCNDESCR>SCENE  Scotland: England.</SCNDESCR>
+
+<PLAYSUBT>MACBETH</PLAYSUBT>
+
+</PLAY>

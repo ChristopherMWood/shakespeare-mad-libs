@@ -1,0 +1,10 @@
+#main-content-container {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.madlib-inner-tab-container {
+	width: 100%;
+	min-height: 600px;
+	border: solid 1px black;
+}

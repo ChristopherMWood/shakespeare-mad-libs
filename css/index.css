@@ -24,6 +24,7 @@ body {
 #project-title-container h1 {
 	display: block;
 	margin: 0 auto;
+	font-size: 3em;
 }
 
 #project-title-container label {
@@ -52,6 +53,10 @@ body {
 #options-container button {
 	margin: 0 auto;
 	display: block;
+	width: 300px;
+	height: 75px;
+	font-size: 15px;
+	font-weight: 600;
 }
 
 .half-content {
