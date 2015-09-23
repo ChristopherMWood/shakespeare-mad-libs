@@ -1,10 +1,19 @@
 
 $(function() {
-  //Pulls in both file names required for xml/xsl tranformation
-  var xmlFilename = "./xml_resources/" + $("#xml-file-name").val();
+  loadMadLibLayout()
+});
+
+function loadMadLibLayout() {
+  var xmlFilename = "./xml_resources/" + $("#madlib-xml-file-name").val();
   var xslFileName = "./xml_resources/madlib_layout.xsl";
   displayResult(xmlFilename, xslFileName);
-});
+}
+
+function loadPlayInfoLayout() {
+  var xmlFilename = "./xml_resources/" + $("#play-info-xml-file-name").val();
+  var xslFileName = "./xml_resources/madlib_layout.xsl";
+  displayResult(xmlFilename, xslFileName);
+}
 
 function loadXMLDoc(filename)
 {
