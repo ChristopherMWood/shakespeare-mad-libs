@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="/xsl/macbeth_lib.xsl"?>
+<xsl:include href="macbeth_lib.xsl"/> 
 
 <PLAY>
 <TITLE>Macbeth MadLib</TITLE>
