@@ -1,5 +1,6 @@
 
 $(function() {
+  //Pulls in both file names required for xml/xsl tranformation
   var xmlFilename = "./xml_resources/" + $("#xml-file-name").val();
   var xslFileName = "./xml_resources/madlib_layout.xsl";
   displayResult(xmlFilename, xslFileName);
@@ -7,29 +8,30 @@ $(function() {
 
 function loadXMLDoc(filename)
 {
-if (window.ActiveXObject)
+  if (window.ActiveXObject)
   {
-  xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+    xhttp = new ActiveXObject("Msxml2.XMLHTTP");
   }
-else 
+  else 
   {
-  xhttp = new XMLHttpRequest();
+    xhttp = new XMLHttpRequest();
   }
-xhttp.open("GET", filename, false);
-try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
-xhttp.send("");
-return xhttp.responseXML;
+    xhttp.open("GET", filename, false);
+  try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+    xhttp.send("");
+  return xhttp.responseXML;
 }
 
 function displayResult(xmlFilename, xslFileName)
 {
-xml = loadXMLDoc(xmlFilename);
-xsl = loadXMLDoc(xslFileName);
-if (document.implementation && document.implementation.createDocument)
+  xml = loadXMLDoc(xmlFilename);
+  xsl = loadXMLDoc(xslFileName);
+
+  if (document.implementation && document.implementation.createDocument)
   {
-  xsltProcessor = new XSLTProcessor();
-  xsltProcessor.importStylesheet(xsl);
-  resultDocument = xsltProcessor.transformToFragment(xml, document);
-  document.getElementById("tab1-madlib-container").appendChild(resultDocument);
+    xsltProcessor = new XSLTProcessor();
+    xsltProcessor.importStylesheet(xsl);
+    resultDocument = xsltProcessor.transformToFragment(xml, document);
+    document.getElementById("tab1-madlib-container").appendChild(resultDocument);
   }
 }
