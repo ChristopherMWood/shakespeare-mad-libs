@@ -20,7 +20,8 @@
 }
 
 .madlib-input {
-	width: 50px;
+	width: 150px;
+	margin: 3px 5px;
 	display: inline-block;
 }
 
@@ -30,4 +31,20 @@
 
 .lpe-label {
 	display: inline-block;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
 }

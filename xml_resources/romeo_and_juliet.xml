@@ -7,7 +7,7 @@
 		<DIALOGUE>
 			<LINE><LP>He jests at scars that never felt a wound.</LP><LPE></LPE></LINE>
 			<STAGEDIR>JULIET appears above at a window</STAGEDIR>
-			<LINE><LP>But, soft! what light through yonder </LP><MADLIB type="noun">window breaks?</MADLIB><LPE></LPE></LINE>
+			<LINE><LP>But, soft! what light through yonder </LP><MADLIB type="noun">window</MADLIB><LPE> breaks?</LPE></LINE>
 			<LINE><LP>It is the east, and Juliet is the </LP><MADLIB>sun</MADLIB>.<LPE></LPE></LINE>
 			<LINE><LP>Arise, fair </LP><MADLIB type="noun">sun</MADLIB><LPE>, and kill the envious moon,</LPE></LINE>
 			<LINE><LP>Who is already sick and pale with grief,</LP><LPE></LPE></LINE>
@@ -20,14 +20,14 @@
 			<LINE><LP>She speaks yet she says nothing: what of that?</LP><LPE></LPE></LINE>
 			<LINE><LP>Her eye discourses; I will answer it.</LP><LPE></LPE></LINE>
 			<LINE><LP>I am too bold, 'tis not to me she speaks:</LP><LPE></LPE></LINE>
-			<LINE><LP>Two of the fairest </LP><MADLIB type="noun">stars</MADLIB> in all the heaven,<LPE></LPE></LINE>
+			<LINE><LP>Two of the fairest </LP><MADLIB type="noun">stars</MADLIB><LPE> in all the heaven,</LPE></LINE>
 			<LINE><LP>Having some business, do entreat her </LP><MADLIB type="bodypart">eyes</MADLIB><LPE></LPE></LINE>
-			<LINE><LP>To twinkle in their </LP><MADLIB type="shape">spheres</MADLIB> till they return.<LPE></LPE></LINE>
+			<LINE><LP>To twinkle in their </LP><MADLIB type="shape">spheres</MADLIB><LPE> till they return.</LPE></LINE>
 			<LINE><LP>What if her eyes were there, they in her head?</LP><LPE></LPE></LINE>
 			<LINE><LP>The brightness of her cheek would shame those stars,</LP><LPE></LPE></LINE>
-			<LINE><LP>As daylight doth a lamp; her </LP><MADLIB type="bodypart">eyes</MADLIB> in heaven<LPE></LPE></LINE>
+			<LINE><LP>As daylight doth a lamp; her </LP><MADLIB type="bodypart">eyes</MADLIB><LPE> in heaven</LPE></LINE>
 			<LINE><LP>Would through the airy region stream so bright</LP><LPE></LPE></LINE>
-			<LINE><LP>That </LP><MADLIB type="noun">birds</MADLIB> would sing and think it were not night.<LPE></LPE></LINE>
+			<LINE><LP>That </LP><MADLIB type="noun">birds</MADLIB><LPE> would sing and think it were not night.</LPE></LINE>
 			<LINE><LP>See, how she leans her cheek upon her hand!</LP><LPE></LPE></LINE>
 			<LINE><LP>O, that I were a glove upon that hand,</LP><LPE></LPE></LINE>
 			<LINE><LP>That I might touch that cheek!</LP><LPE></LPE></LINE>
@@ -37,31 +37,31 @@
 	<SPEECH>
 		<SPEAKER>JULIET</SPEAKER>
 		<DIALOGUE>
-			<LINE>Ay me!</LINE>
+			<LINE><LP>Ay me!</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
 	<SPEECH>
 		<SPEAKER>ROMEO</SPEAKER>
 		<DIALOGUE>
-			<LINE>She speaks:</LINE>
-			<LINE>O, speak again, bright angel! for thou art</LINE>
-			<LINE>As glorious to this night, being o'er my head</LINE>
-			<LINE>As is a winged messenger of heaven</LINE>
-			<LINE>Unto the white-upturned wondering eyes</LINE>
-			<LINE>Of mortals that fall back to gaze on him</LINE>
-			<LINE>When he bestrides the lazy-pacing clouds</LINE>
-			<LINE>And sails upon the bosom of the air.</LINE>
+			<LINE><LP>She speaks:</LP><LPE></LPE></LINE>
+			<LINE><LP>O, speak again, bright angel! for thou art</LP><LPE></LPE></LINE>
+			<LINE><LP>As glorious to this night, being o'er my </LP><MADLIB type="bodypart">head</MADLIB><LPE></LPE></LINE>
+			<LINE><LP>As is a winged messenger of heaven</LP><LPE></LPE></LINE>
+			<LINE><LP>Unto the white-upturned wondering </LP><MADLIB type="bodypart">eyes</MADLIB><LPE></LPE></LINE>
+			<LINE><LP>Of mortals that fall back to gaze on him</LP><LPE></LPE></LINE>
+			<LINE><LP>When he bestrides the lazy-pacing </LP><MADLIB type="noun">clouds</MADLIB><LPE></LPE></LINE>
+			<LINE><LP>And sails upon the bosom of the air.</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
 	<SPEECH>
 		<SPEAKER>JULIET</SPEAKER>
 		<DIALOGUE>
-			<LINE>O Romeo, Romeo! wherefore art thou Romeo?</LINE>
-			<LINE>Deny thy father and refuse thy name;</LINE>
-			<LINE>Or, if thou wilt not, be but sworn my love,</LINE>
-			<LINE>And I'll no longer be a Capulet.</LINE>
+			<LINE><LP>O Romeo, Romeo! wherefore art thou Romeo?</LP><LPE></LPE></LINE>
+			<LINE><LP>Deny thy </LP><MADLIB type="family member">father</MADLIB> and refuse thy name;<LPE></LPE></LINE>
+			<LINE><LP>Or, if thou wilt not, be but sworn my love,</LP><LPE></LPE></LINE>
+			<LINE><LP>And I'll no longer be a Capulet.</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
