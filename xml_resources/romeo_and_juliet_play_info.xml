@@ -1,6 +1,6 @@
 <PERSONAE>
 <PERSONA>ESCALUS, prince of Verona. </PERSONA>
-<PERSONA>PARIS, a young nobleman, kinsman to the prince.</PERSONA>
+<PERSONA><TITLE>PARIS</TITLE><DESC>a young nobleman, kinsman to the prince.</DESC></PERSONA>
 
 <PGROUP>
 <PERSONA>MONTAGUE</PERSONA>

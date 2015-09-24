@@ -5,32 +5,32 @@
 	<SPEECH>
 		<SPEAKER>ROMEO</SPEAKER>
 		<DIALOGUE>
-			<LINE>He jests at scars that never felt a wound.</LINE>
+			<LINE><LP>He jests at scars that never felt a wound.</LP><LPE></LPE></LINE>
 			<STAGEDIR>JULIET appears above at a window</STAGEDIR>
-			<LINE>But, soft! what light through yonder window breaks?</LINE>
-			<LINE>It is the east, and Juliet is the sun.</LINE>
-			<LINE>Arise, fair sun, and kill the envious moon,</LINE>
-			<LINE>Who is already sick and pale with grief,</LINE>
-			<LINE>That thou her maid art far more fair than she:</LINE>
-			<LINE>Be not her maid, since she is envious;</LINE>
-			<LINE>Her vestal livery is but sick and green</LINE>
-			<LINE>And none but fools do wear it; cast it off.</LINE>
-			<LINE>It is my lady, O, it is my love!</LINE>
-			<LINE>O, that she knew she were!</LINE>
-			<LINE>She speaks yet she says nothing: what of that?</LINE>
-			<LINE>Her eye discourses; I will answer it.</LINE>
-			<LINE>I am too bold, 'tis not to me she speaks:</LINE>
-			<LINE>Two of the fairest stars in all the heaven,</LINE>
-			<LINE>Having some business, do entreat her <MADLIB>eyes</MADLIB></LINE>
-			<LINE>To twinkle in their spheres till they return.</LINE>
-			<LINE>What if her eyes were there, they in her head?</LINE>
-			<LINE>The brightness of her cheek would shame those stars,</LINE>
-			<LINE>As daylight doth a lamp; her eyes in heaven</LINE>
-			<LINE>Would through the airy region stream so bright</LINE>
-			<LINE>That birds would sing and think it were not night.</LINE>
-			<LINE>See, how she leans her cheek upon her hand!</LINE>
-			<LINE>O, that I were a glove upon that hand,</LINE>
-			<LINE>That I might touch that cheek!</LINE>
+			<LINE><LP>But, soft! what light through yonder </LP><MADLIB type="noun">window breaks?</MADLIB><LPE></LPE></LINE>
+			<LINE><LP>It is the east, and Juliet is the </LP><MADLIB>sun</MADLIB>.<LPE></LPE></LINE>
+			<LINE><LP>Arise, fair </LP><MADLIB type="noun">sun</MADLIB><LPE>, and kill the envious moon,</LPE></LINE>
+			<LINE><LP>Who is already sick and pale with grief,</LP><LPE></LPE></LINE>
+			<LINE><LP>That thou her maid art far more fair than she:</LP><LPE></LPE></LINE>
+			<LINE><LP>Be not her maid, since she is envious;</LP><LPE></LPE></LINE>
+			<LINE><LP>Her vestal livery is but sick and green</LP><LPE></LPE></LINE>
+			<LINE><LP>And none but fools do wear it; cast it off.</LP><LPE></LPE></LINE>
+			<LINE><LP>It is my lady, O, it is my love!</LP><LPE></LPE></LINE>
+			<LINE><LP>O, that she knew she were!</LP><LPE></LPE></LINE>
+			<LINE><LP>She speaks yet she says nothing: what of that?</LP><LPE></LPE></LINE>
+			<LINE><LP>Her eye discourses; I will answer it.</LP><LPE></LPE></LINE>
+			<LINE><LP>I am too bold, 'tis not to me she speaks:</LP><LPE></LPE></LINE>
+			<LINE><LP>Two of the fairest </LP><MADLIB type="noun">stars</MADLIB> in all the heaven,<LPE></LPE></LINE>
+			<LINE><LP>Having some business, do entreat her </LP><MADLIB type="bodypart">eyes</MADLIB><LPE></LPE></LINE>
+			<LINE><LP>To twinkle in their </LP><MADLIB type="shape">spheres</MADLIB> till they return.<LPE></LPE></LINE>
+			<LINE><LP>What if her eyes were there, they in her head?</LP><LPE></LPE></LINE>
+			<LINE><LP>The brightness of her cheek would shame those stars,</LP><LPE></LPE></LINE>
+			<LINE><LP>As daylight doth a lamp; her </LP><MADLIB type="bodypart">eyes</MADLIB> in heaven<LPE></LPE></LINE>
+			<LINE><LP>Would through the airy region stream so bright</LP><LPE></LPE></LINE>
+			<LINE><LP>That </LP><MADLIB type="noun">birds</MADLIB> would sing and think it were not night.<LPE></LPE></LINE>
+			<LINE><LP>See, how she leans her cheek upon her hand!</LP><LPE></LPE></LINE>
+			<LINE><LP>O, that I were a glove upon that hand,</LP><LPE></LPE></LINE>
+			<LINE><LP>That I might touch that cheek!</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 

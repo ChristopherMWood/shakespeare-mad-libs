@@ -43,5 +43,11 @@ function displayResult(id, xmlFilename, xslFileName)
     xsltProcessor.importStylesheet(xsl);
     resultDocument = xsltProcessor.transformToFragment(xml, document);
     document.getElementById(id).appendChild(resultDocument);
+
+    $("input").each(function(){
+      if($(this).attr('placeholder') == "") {
+        $(this).hide();
+      }
+    });
   }
 }

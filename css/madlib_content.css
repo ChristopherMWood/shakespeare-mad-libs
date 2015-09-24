@@ -19,3 +19,15 @@
 	width: 85%;
 }
 
+.madlib-input {
+	width: 50px;
+	display: inline-block;
+}
+
+.lp-label {
+	display: inline-block;
+}
+
+.lpe-label {
+	display: inline-block;
+}

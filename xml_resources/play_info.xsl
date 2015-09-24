@@ -2,7 +2,7 @@
 <html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:for-each select="PERSONAE/PERSONA">
-	<div class="speaker-line"><xsl:value-of select="current()"/></div>
-
+	<label class="character-title"><xsl:value-of select="TITLE"/></label>
+	<span class="character-title"><xsl:value-of select="DESC"/></span>
 </xsl:for-each>
 </html>

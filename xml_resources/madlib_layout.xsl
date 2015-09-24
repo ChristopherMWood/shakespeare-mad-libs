@@ -7,7 +7,12 @@
 
     <div class="dialogue-container">
       <xsl:for-each select="DIALOGUE/LINE">
-        <div class="speaker-line"><xsl:value-of select="current()"/></div>
+      	<div>
+
+	      	<label class="lp-label"><xsl:value-of select="LP"/></label>
+	        <input class="madlib-input" placeholder="{MADLIB/@type}"/>
+	        <label class="lpe-label"><xsl:value-of select="LPE"/></label>
+    	</div>
       </xsl:for-each>
 
     </div>
