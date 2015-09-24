@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<SHAKESPEARE_SCENE>
+
+	<SPEECH>
+		<SPEAKER>OTHELLO</SPEAKER>
+		<DIALOGUE>
+			<LINE>The servants of the duke, and my lieutenant.</LINE>
+			<LINE>The goodness of the night upon you, friends!</LINE>
+			<LINE>What is the news?</LINE>
+		</DIALOGUE>
+	</SPEECH>
+
+	<SPEECH>
+		<SPEAKER>CASSIO</SPEAKER>
+		<DIALOGUE>
+			<LINE>The duke does greet you, general,</LINE>
+			<LINE>And he requires your haste-post-haste appearance,</LINE>
+			<LINE>Even on the instant.</LINE>
+		</DIALOGUE>
+	</SPEECH>
+
+	<SPEECH>
+		<SPEAKER>OTHELLO</SPEAKER>
+		<DIALOGUE>
+			<LINE>What is the matter, think you?</LINE>
+		</DIALOGUE>
+	</SPEECH>
+
+	<SPEECH>
+		<SPEAKER>CASSIO</SPEAKER>
+		<DIALOGUE>
+			<LINE>Something from Cyprus as I may divine:</LINE>
+			<LINE>It is a business of some heat: the galleys</LINE>
+			<LINE>Have sent a dozen sequent messengers</LINE>
+			<LINE>This very night at one another's heels,</LINE>
+			<LINE>And many of the consuls, raised and met,</LINE>
+			<LINE>Are at the duke's already: you have been</LINE>
+			<LINE>hotly call'd for;</LINE>
+			<LINE>When, being not at your lodging to be found,</LINE>
+			<LINE>The senate hath sent about three several guests</LINE>
+			<LINE>To search you out.</LINE>
+		</DIALOGUE>
+	</SPEECH>
+
+	<SPEECH>
+		<SPEAKER>OTHELLO</SPEAKER>
+		<DIALOGUE>
+			<LINE>'Tis well I am found by you.</LINE>
+			<LINE>I will but spend a word here in the house,</LINE>
+			<LINE>And go with you.</LINE>
+		</DIALOGUE>
+	</SPEECH>
+
+	<STAGEDIR>Exit</STAGEDIR>
+
+	<SPEECH>
+		<SPEAKER>CASSIO</SPEAKER>
+		<DIALOGUE>
+			<LINE>Ancient, what makes he here?</LINE>
+		</DIALOGUE>
+	</SPEECH>
+
+	<SPEECH>
+		<SPEAKER>IAGO</SPEAKER>
+		<DIALOGUE>
+			<LINE>'Faith, he to-night hath boarded a land carack:</LINE>
+			<LINE>If it prove lawful prize, he's made for ever.</LINE>
+		</DIALOGUE>
+	</SPEECH>
+
+	<SPEECH>
+		<SPEAKER>CASSIO</SPEAKER>
+		<DIALOGUE>
+			<LINE>I do not understand.</LINE>
+		</DIALOGUE>
+	</SPEECH>
+
+</SHAKESPEARE_SCENE>
