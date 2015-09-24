@@ -1,42 +1,41 @@
 <PERSONAE>
-<PERSONA>ESCALUS, prince of Verona. </PERSONA>
+<PERSONA><TITLE>ESCALUS</TITLE><DESC> prince of Verona. </DESC></PERSONA>
 <PERSONA><TITLE>PARIS</TITLE><DESC>a young nobleman, kinsman to the prince.</DESC></PERSONA>
 
 <PGROUP>
-<PERSONA>MONTAGUE</PERSONA>
-<PERSONA>CAPULET</PERSONA>
+<PERSONA><TITLE>MONTAGUE</TITLE><DESC>heads of two houses at variance</DESC></PERSONA>
+<PERSONA><TITLE>CAPULET</TITLE><DESC>heads of two houses at variance</DESC></PERSONA>
 <GRPDESCR>heads of two houses at variance with each other.</GRPDESCR>
 </PGROUP>
 
-<PERSONA>An old man, cousin to Capulet. </PERSONA>
-<PERSONA>ROMEO, son to Montague.</PERSONA>
-<PERSONA>MERCUTIO, kinsman to the prince, and friend to Romeo.</PERSONA>
-<PERSONA>BENVOLIO, nephew to Montague, and friend to Romeo.</PERSONA>
-<PERSONA>TYBALT, nephew to Lady Capulet.</PERSONA>
+<PERSONA><TITLE>MISC</TITLE><DESC>An old man, cousin to Capulet.</DESC></PERSONA>
+<PERSONA><TITLE>ROMEO</TITLE><DESC>son to Montague.</DESC></PERSONA>
+<PERSONA><TITLE>MERCUTIO</TITLE><DESC> kinsman to the prince, and friend to Romeo.</DESC></PERSONA>
+<PERSONA><TITLE>BENVOLIO</TITLE><DESC> nephew to Montague, and friend to Romeo.</DESC></PERSONA>
+<PERSONA><TITLE>TYBALT</TITLE><DESC> nephew to Lady Capulet.</DESC></PERSONA>
 
 <PGROUP>
-<PERSONA>FRIAR LAURENCE</PERSONA>
-<PERSONA>FRIAR JOHN</PERSONA>
+<PERSONA><TITLE>FRIAR LAURENCE</TITLE><DESC>Franciscan</DESC></PERSONA>
+<PERSONA><TITLE>FRIAR JOHN</TITLE><DESC>Franciscan</DESC></PERSONA>
 <GRPDESCR>Franciscans.</GRPDESCR>
 </PGROUP>
 
-<PERSONA>BALTHASAR, servant to Romeo.</PERSONA>
+<PERSONA><TITLE>BALTHASAR</TITLE><DESC> servant to Romeo.</DESC></PERSONA>
 
 <PGROUP>
-<PERSONA>SAMPSON</PERSONA>
-<PERSONA>GREGORY</PERSONA>
-<GRPDESCR>servants to Capulet.</GRPDESCR>
+<PERSONA><TITLE>SAMPSON</TITLE><DESC>servant to Capulet.</DESC></PERSONA>
+<PERSONA><TITLE>GREGORY</TITLE><DESC>servant to Capulet.</DESC></PERSONA>
 </PGROUP>
 
-<PERSONA>PETER, servant to Juliet's nurse.</PERSONA>
-<PERSONA>ABRAHAM, servant to Montague.</PERSONA>
-<PERSONA>An Apothecary. </PERSONA>
-<PERSONA>Three Musicians.</PERSONA>
-<PERSONA>Page to Paris; another Page; an officer.</PERSONA>
-<PERSONA>LADY MONTAGUE, wife to Montague.</PERSONA>
-<PERSONA>LADY CAPULET, wife to Capulet.</PERSONA>
-<PERSONA>JULIET, daughter to Capulet.</PERSONA>
-<PERSONA>Nurse to Juliet. </PERSONA>
+<PERSONA><TITLE>PETER</TITLE><DESC>servant to Juliet's nurse.</DESC></PERSONA>
+<PERSONA><TITLE>ABRAHAM</TITLE><DESC>servant to Montague.</DESC></PERSONA>
+<PERSONA><TITLE>MISC</TITLE><DESC>An Apothecary.</DESC></PERSONA>
+<PERSONA><TITLE>MISC</TITLE><DESC>Three Musicians.</DESC></PERSONA>
+<PERSONA><TITLE>MISC</TITLE><DESC>Page to Paris; another Page; an officer.</DESC></PERSONA>
+<PERSONA><TITLE>LADY MONTAGUE</TITLE><DESC>wife to Montague.</DESC></PERSONA>
+<PERSONA><TITLE>LADY CAPULET</TITLE><DESC>wife to Capulet</DESC></PERSONA>
+<PERSONA><TITLE>JULIET</TITLE><DESC>daughter to Capulet.</DESC></PERSONA>
+<PERSONA><TITLE>MISC</TITLE><DESC>Nurse to Juliet.</DESC></PERSONA>
 <PERSONA>Citizens of Verona; several Men and Women, relations to both houses; Maskers, Guards, Watchmen, and Attendants.</PERSONA>
 <PERSONA>Chorus.</PERSONA>
 </PERSONAE>

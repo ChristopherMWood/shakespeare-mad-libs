@@ -21,7 +21,6 @@ html, body, .perspective {
 
 .container {
 	background: #fff;
-	background-image: url("../assets/landing_background.jpg");
 	min-height: 100%;
 	position: relative;
 	outline: 1px solid rgba(0,0,0,0);

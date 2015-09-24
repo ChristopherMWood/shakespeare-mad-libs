@@ -8,9 +8,8 @@
     <div class="dialogue-container">
       <xsl:for-each select="DIALOGUE/LINE">
       	<div>
-
 	      	<label class="lp-label"><xsl:value-of select="LP"/></label>
-	        <input class="madlib-input" placeholder="{MADLIB/@type}"/>
+	        <input class="madlib-input" data-value="{MADLIB}" placeholder="{MADLIB/@type}"/>
 	        <label class="lpe-label"><xsl:value-of select="LPE"/></label>
     	</div>
       </xsl:for-each>

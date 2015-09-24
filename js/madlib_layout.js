@@ -1,8 +1,33 @@
+var userInput = [];
+var inputView = false;
 
 $(function() {
   loadMadLibLayout();
   loadPlayInfoLayout();
 });
+
+$("#input-view-button").on("click", function(){
+  if(inputView) {
+    $("input").each(function(index){
+      $(this).val(userInput[index]);
+      $(this).prop('disabled', false);
+      inputView = false;
+    });
+  }
+});
+
+$("#original-view-button").on("click", function(){
+  inputView = true;
+  $("input").each(function(index){
+    userInput[index] = $(this).val();
+    $(this).val($(this).attr("data-value"));
+    $(this).prop('disabled', true);
+  });
+});
+
+function saveUserInput() {
+
+}
 
 function loadMadLibLayout() {
   var xmlFilename = "./xml_resources/" + $("#madlib-xml-file-name").val();
