@@ -1,0 +1,21 @@
+.speech-container {
+	padding: 10px;
+	color: black;
+}
+
+.speaker-name {
+	margin-left: 5px;
+	color: #1976D2;
+}
+
+.speaker-line {
+	font-size: 22px;
+	margin: 10px 5px;
+}
+
+.dialogue-container {
+	margin: 0 auto;
+	display: block;
+	width: 85%;
+}
+

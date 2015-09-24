@@ -7,16 +7,17 @@
 		<meta name="author" content="Christopher M. Wood">
 		<link rel="stylesheet" type="text/css" href="css/madlib_layout.css" />
 		<link rel="stylesheet" type="text/css" href="css/google_tabs.css" />
+		<link rel="stylesheet" type="text/css" href="css/madlib_content.css" />
 	</header>
 
 	<body>
+		<center><h2 id="page-title">Romeo and Juliet MadLib</h2></center>
 		<input id="madlib-xml-file-name" value="romeo_and_juliet.xml" hidden/>
-		<input id="play-info-xml-file-name" value="romeo_and_juliet.xml" hidden/>
+		<input id="play-info-xml-file-name" value="romeo_and_juliet_play_info.xml" hidden/>
 		<div id="main-content-container">
 			<ul id="tabs">
 			    <li><a href="#" name="#tab1">MadLib</a></li>
-			    <li><a href="#" name="#tab2">Play Info</a></li>
-			    <li><a href="#" name="#tab3">Instructions</a></li>
+			    <li><a href="#" name="#tab3">Character Info</a></li>
 			</ul>
 
 			<div id="content"> 
@@ -25,28 +26,9 @@
 			    		
 			    	</div>
 		    	</div>
-			    <div id="tab2">
-			    	<div class="madlib-inner-tab-container ">
-			    		
-			    	</div>
-		    	</div>
 			    <div id="tab3">
-				    <div class="madlib-inner-tab-container ">
-				    	<h2>Madlib Instruction</h2>
-				    	<p>
-				    		While most people have played MadLibs in their life, this version has
-				    		a couple things you should be aware of before playing.
-				    	</p>
-				    	<h3>Full Page Play</h3>
-				    	<p>
-				    	    When in full page play mode, the full section of the Shakespeare play is viewable. This mode gives
-				    	    context to each of the words being played and is similar to if you opened the book and played.
-				    	</p>
-				    	<h3>Single Word Play</h3>
-				    	<p>
-				    		When in Single Word mode, each word to fill out is presented one at a time as if it was being read
-				    		to you. This keeps the context of the story out of the picture until the end.
-				    	</p>
+				    <div id="tab2-madlib-container" class="madlib-inner-tab-container ">
+
 				    </div>
 			    </div>
 			</div>

@@ -1,18 +1,19 @@
 
 $(function() {
-  loadMadLibLayout()
+  loadMadLibLayout();
+  loadPlayInfoLayout();
 });
 
 function loadMadLibLayout() {
   var xmlFilename = "./xml_resources/" + $("#madlib-xml-file-name").val();
   var xslFileName = "./xml_resources/madlib_layout.xsl";
-  displayResult(xmlFilename, xslFileName);
+  displayResult("tab1-madlib-container", xmlFilename, xslFileName);
 }
 
 function loadPlayInfoLayout() {
   var xmlFilename = "./xml_resources/" + $("#play-info-xml-file-name").val();
-  var xslFileName = "./xml_resources/madlib_layout.xsl";
-  displayResult(xmlFilename, xslFileName);
+  var xslFileName = "./xml_resources/play_info.xsl";
+  displayResult("tab2-madlib-container", xmlFilename, xslFileName);
 }
 
 function loadXMLDoc(filename)
@@ -31,7 +32,7 @@ function loadXMLDoc(filename)
   return xhttp.responseXML;
 }
 
-function displayResult(xmlFilename, xslFileName)
+function displayResult(id, xmlFilename, xslFileName)
 {
   xml = loadXMLDoc(xmlFilename);
   xsl = loadXMLDoc(xslFileName);
@@ -41,6 +42,6 @@ function displayResult(xmlFilename, xslFileName)
     xsltProcessor = new XSLTProcessor();
     xsltProcessor.importStylesheet(xsl);
     resultDocument = xsltProcessor.transformToFragment(xml, document);
-    document.getElementById("tab1-madlib-container").appendChild(resultDocument);
+    document.getElementById(id).appendChild(resultDocument);
   }
 }
