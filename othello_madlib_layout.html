@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+	<header>
+		<title>Othello Madlibs</title><meta charset="UTF-8">
+		<meta name="description" content="MadLibs using Shakespeare in XML">
+		<meta name="keywords" content="MadLibs,XML,Shakespeare,Project,VT,CS4634">
+		<meta name="author" content="Christopher M. Wood">
+		<link rel="stylesheet" type="text/css" href="css/madlib_layout.css" />
+		<link rel="stylesheet" type="text/css" href="css/google_tabs.css" />
+		<link rel="stylesheet" type="text/css" href="css/madlib_content.css" />
+	</header>
+
+	<body>
+		<center><h2 id="page-title">Othello MadLib</h2></center>
+		<input id="madlib-xml-file-name" value="othello.xml" hidden/>
+		<input id="play-info-xml-file-name" value="othello_play_info.xml" hidden/>
+		<div id="main-content-container">
+			<ul id="tabs">
+			    <li><a href="#" name="#tab1">MadLib</a></li>
+			    <li><a href="#" name="#tab3">Character Info</a></li>
+			</ul>
+
+			<div id="content"> 
+			    <div id="tab1">
+			    	<center>
+			    		<button id="input-view-button">Input View</button>
+				    	<button id="original-view-button">Original View</button>
+			    	</center>
+			    	<div id="tab1-madlib-container">
+			    		
+			    	</div>
+		    	</div>
+			    <div id="tab3">
+				    <div id="tab2-madlib-container" class="madlib-inner-tab-container ">
+
+				    </div>
+			    </div>
+			</div>
+		</div>
+
+	</body>
+
+	<footer>
+	    <script type="text/javascript" src="js/jQuery/jquery-2.1.4.min.js"></script>
+	    <script type="text/javascript" src="js/jQuery/plugins/jquery.googleTabs.js"></script>
+	    <script type="text/javascript" src="js/madlib_layout.js"></script>
+	</footer>
+</html>
