@@ -5,50 +5,50 @@
 	<SPEECH>
 		<SPEAKER>OTHELLO</SPEAKER>
 		<DIALOGUE>
-			<LINE>The servants of the duke, and my lieutenant.</LINE>
-			<LINE>The goodness of the night upon you, friends!</LINE>
-			<LINE>What is the news?</LINE>
+			<LINE><LP>The servants of the duke, and my lieutenant.</LP><LPE></LPE></LINE>
+			<LINE><LP>The goodness of the </LP><MADLIB type="Time of Day">night</MADLIB><LPE> upon you, friends!</LPE></LINE>
+			<LINE><LP>What is the news?</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
 	<SPEECH>
 		<SPEAKER>CASSIO</SPEAKER>
 		<DIALOGUE>
-			<LINE>The duke does greet you, general,</LINE>
-			<LINE>And he requires your haste-post-haste appearance,</LINE>
-			<LINE>Even on the instant.</LINE>
+			<LINE><LP>The </LP><MADLIB type="Official Title">duke</MADLIB><LPE> does greet you, general,</LPE></LINE>
+			<LINE><LP>And he requires your haste-post-haste appearance,</LP><LPE></LPE></LINE>
+			<LINE><LP>Even on the instant.</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
 	<SPEECH>
 		<SPEAKER>OTHELLO</SPEAKER>
 		<DIALOGUE>
-			<LINE>What is the matter, think you?</LINE>
+			<LINE><LP><LP>What is the matter, think you?</LP><LPE></LPE></LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
 	<SPEECH>
 		<SPEAKER>CASSIO</SPEAKER>
 		<DIALOGUE>
-			<LINE>Something from Cyprus as I may divine:</LINE>
-			<LINE>It is a business of some heat: the galleys</LINE>
-			<LINE>Have sent a dozen sequent messengers</LINE>
-			<LINE>This very night at one another's heels,</LINE>
-			<LINE>And many of the consuls, raised and met,</LINE>
-			<LINE>Are at the duke's already: you have been</LINE>
-			<LINE>hotly call'd for;</LINE>
-			<LINE>When, being not at your lodging to be found,</LINE>
-			<LINE>The senate hath sent about three several guests</LINE>
-			<LINE>To search you out.</LINE>
+			<LINE><LP>Something from </LP><MADLIB type="location">Cyprus</MADLIB><LPE> as I may divine:</LPE></LINE>
+			<LINE><LP>It is a business of some heat: the galleys</LP><LPE></LPE></LINE>
+			<LINE><LP>Have sent a </LP><MADLIB type="number">dozen</MADLIB><LPE> sequent messengers</LPE></LINE>
+			<LINE><LP>This very night at one another's heels,</LP><LPE></LPE></LINE>
+			<LINE><LP>And many of the consuls, raised and met,</LP><LPE></LPE></LINE>
+			<LINE><LP>Are at the duke's already: you have been</LP><LPE></LPE></LINE>
+			<LINE><LP>hotly call'd for;</LP><LPE></LPE></LINE>
+			<LINE><LP>When, being not at your lodging to be found,</LP><LPE></LPE></LINE>
+			<LINE><LP>The senate hath sent about three several guests</LP><LPE></LPE></LINE>
+			<LINE><LP>To search you out.</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
 	<SPEECH>
 		<SPEAKER>OTHELLO</SPEAKER>
 		<DIALOGUE>
-			<LINE>'Tis well I am found by you.</LINE>
-			<LINE>I will but spend a word here in the house,</LINE>
-			<LINE>And go with you.</LINE>
+			<LINE><LP>'Tis well I am found by you.</LP><LPE></LPE></LINE>
+			<LINE><LP>I will but spend a word here in the </LP><MADLIB type="noun">house,</MADLIB><LPE></LPE></LINE>
+			<LINE><LP>And go with you.</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
@@ -57,22 +57,22 @@
 	<SPEECH>
 		<SPEAKER>CASSIO</SPEAKER>
 		<DIALOGUE>
-			<LINE>Ancient, what makes he here?</LINE>
+			<LINE><LP>Ancient, what makes he here?</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
 	<SPEECH>
 		<SPEAKER>IAGO</SPEAKER>
 		<DIALOGUE>
-			<LINE>'Faith, he to-night hath boarded a land carack:</LINE>
-			<LINE>If it prove lawful prize, he's made for ever.</LINE>
+			<LINE><LP>'Faith, he to-night hath boarded a land carack:</LP><LPE></LPE></LINE>
+			<LINE><LP>If it prove lawful prize, he's made for ever.</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
 	<SPEECH>
 		<SPEAKER>CASSIO</SPEAKER>
 		<DIALOGUE>
-			<LINE>I do not understand.</LINE>
+			<LINE><LP>I do not understand.</LP><LPE></LPE></LINE>
 		</DIALOGUE>
 	</SPEECH>
 
