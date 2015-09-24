@@ -6,3 +6,5 @@ This project was created for CS 4634 Design of Information as a way to learn XML
 * Magnific Popup
 
 Project takes several scenes from shakespeare and turns them into classic MadLib pages. Simple as that.
+
+NOTE: Due to how Google Chome handle local loading of XML files, this only work in Mozilla Firefox.
